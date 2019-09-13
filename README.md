@@ -18,7 +18,7 @@ setTimeout(function(){
 
 ### Parameters
 + **data:** Data to be shown (string, array, object, number)
-+ **base (default is 10):** If 'data' is a 'number' type, then 'base' defines in witch base the number must be show, e.g. binary (2), decimal (10), hexdecimal (16), etc.
++ **base (default is 10):** If `data` is a `number` type, then `base` defines in witch base the number must be show, e.g. binary (2), decimal (10), hexdecimal (16), etc.
 
 ### Methods
 + ***print.timeStamp(data[,base]):***
