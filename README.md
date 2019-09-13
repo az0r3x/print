@@ -1,10 +1,10 @@
 # print
 Same as console.log from NodeJS but with time stamp (up to ms) and overwrite previous line.
 
-### install
+### Install
 `npm i @az0r3x/print`
 
-### usage
+### Usage
 ```Javascript
 let print = require('@az0r3x/print');
 
@@ -16,7 +16,11 @@ setTimeout(function(){
 }, 4000)
 ```
 
-### Functions
+### Parameters
++ **data:** Data to be shown (string, array, object, number)
++ **base (default is 10):** If 'data' is a 'number' type, then 'base' defines in witch base the number must be show, e.g. binary (2), decimal (10), hexdecimal (16), etc.
+
+### Methods
 + ***print.timeStamp(data[,base]):***
     + print.timeStamp("Hi!") ->                         [22:00:19] Hi!
     + print.timeStamp({"me":"ur age?", "you":20}) ->    [22:00:22] {"me":"ur age?", "you":20}
